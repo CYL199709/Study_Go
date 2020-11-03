@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+//字符串的修改
 func main() {
 	s2 := "白萝卜"      //按asicc位存储，无法直接修改，每个中文字符3-4个字节
 	s3 := []rune(s2) //把字符串强制转换成切片
